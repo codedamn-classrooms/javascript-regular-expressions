@@ -1,7 +1,7 @@
 module.exports = () => {
-	let waldoIsHiding = 'Somewhere Waldo is hiding in this text.'
-	let waldoRegex = /search/ // Change this line
-	let result = waldoRegex.test(waldoIsHiding)
+	let petString = 'James has a pet cat.'
+	let petRegex = /change/ // Change this line
+	let result = petRegex.test(petString)
 
 	return result
 }
