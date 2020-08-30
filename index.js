@@ -1,7 +1,7 @@
 module.exports = () => {
-	let favWord = 'favorite'
-	let favRegex = /change/ // Change this line
-	let result = favRegex.test(favWord)
+	let sampleWord = 'astronaut'
+	let pwRegex = /change/ // Change this line
+	let result = pwRegex.test(sampleWord)
 
 	return result
 }
