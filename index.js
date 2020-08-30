@@ -1,7 +1,7 @@
 module.exports = () => {
-	let quoteSample = '3 blind mice.'
+	let difficultSpelling = 'Mississippi'
 	let myRegex = /change/ // Change this line
-	let result = myRegex // Change this line
+	let result = difficultSpelling.match(myRegex)
 
 	return result
 }
