@@ -1,7 +1,7 @@
 module.exports = () => {
-	let caboose = 'The last car on a train is the caboose'
-	let lastRegex = /change/ // Change this line
-	let result = lastRegex.test(caboose)
+	let quoteSample = 'The five boxing wizards jump quickly.'
+	let alphabetRegexV2 = /change/ // Change this line
+	let result = quoteSample.match(alphabetRegexV2).length
 
 	return result
 }
