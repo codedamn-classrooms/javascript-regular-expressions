@@ -1,7 +1,7 @@
 module.exports = () => {
-	let myString = 'freeCodeCamp'
-	let fccRegex = /change/ // Change this line
-	let result = fccRegex.test(myString)
+	let extractStr = "Extract the word 'coding' from this string."
+	let codingRegex = /change/ // Change this line
+	let result = extractStr // Change this line
 
 	return result
 }
