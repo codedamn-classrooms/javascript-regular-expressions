@@ -1,7 +1,7 @@
 module.exports = () => {
-	let username = 'JackOfAllTrades'
-	let userCheck = /change/ // Change this line
-	let result = userCheck.test(username)
+	let sample = 'Whitespace is important in separating words'
+	let countWhiteSpace = /change/ // Change this line
+	let result = sample.match(countWhiteSpace)
 
 	return result
 }
