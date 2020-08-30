@@ -1,7 +1,7 @@
 module.exports = () => {
-	let quoteSample = 'The five boxing wizards jump quickly.'
-	let nonAlphabetRegex = /change/ // Change this line
-	let result = quoteSample.match(nonAlphabetRegex).length
+	let movieName = '2001: A Space Odyssey'
+	let numRegex = /change/ // Change this line
+	let result = movieName.match(numRegex).length
 
 	return result
 }
