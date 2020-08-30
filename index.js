@@ -1,5 +1,1 @@
-module.exports = () => {
-	let reCriminals = /./ // Change this line
-
-	return result
-}
+let reCriminals = /./ // Change this line
