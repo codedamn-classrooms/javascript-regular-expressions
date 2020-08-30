@@ -1,8 +1,7 @@
 module.exports = () => {
-	let str = 'one two three'
-	let fixRegex = /change/ // Change this line
-	let replaceText = '' // Change this line
-	let result = str.replace(fixRegex, replaceText)
+	let hello = '   Hello, World!  '
+	let wsRegex = /change/ // Change this line
+	let result = hello // Change this line
 
 	return result
 }
