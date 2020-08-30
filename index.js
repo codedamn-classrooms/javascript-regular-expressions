@@ -1,8 +1,7 @@
 module.exports = () => {
-	let quoteSample =
-		'Beware of bugs in the above code; I have only proved it correct, not tried it.'
-	let vowelRegex = /change/ // Change this line
-	let result = vowelRegex // Change this line
+	let quoteSample = 'The quick brown fox jumps over the lazy dog.'
+	let alphabetRegex = /change/ // Change this line
+	let result = alphabetRegex // Change this line
 
 	return result
 }
