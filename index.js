@@ -1,7 +1,7 @@
 module.exports = () => {
-	let timStr = 'Timmmmber'
-	let timRegex = /change/ // Change this line
-	let result = timRegex.test(timStr)
+	let favWord = 'favorite'
+	let favRegex = /change/ // Change this line
+	let result = favRegex.test(favWord)
 
 	return result
 }
