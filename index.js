@@ -1,7 +1,7 @@
 module.exports = () => {
-	let sample = 'Whitespace is important in separating words'
-	let countNonWhiteSpace = /change/ // Change this line
-	let result = sample.match(countNonWhiteSpace)
+	let ohStr = 'Ohhh no'
+	let ohRegex = /change/ // Change this line
+	let result = ohRegex.test(ohStr)
 
 	return result
 }
