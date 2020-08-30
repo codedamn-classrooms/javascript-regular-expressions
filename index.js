@@ -1,7 +1,7 @@
 module.exports = () => {
-	let twinkleStar = 'Twinkle, twinkle, little star'
-	let starRegex = /change/ // Change this line
-	let result = twinkleStar // Change this line
+	let exampleStr = "Let's have fun with regular expressions!"
+	let unRegex = /change/ // Change this line
+	let result = unRegex.test(exampleStr)
 
 	return result
 }
