@@ -1,7 +1,8 @@
 module.exports = () => {
-	let exampleStr = "Let's have fun with regular expressions!"
-	let unRegex = /change/ // Change this line
-	let result = unRegex.test(exampleStr)
+	let quoteSample =
+		'Beware of bugs in the above code; I have only proved it correct, not tried it.'
+	let vowelRegex = /change/ // Change this line
+	let result = vowelRegex // Change this line
 
 	return result
 }
