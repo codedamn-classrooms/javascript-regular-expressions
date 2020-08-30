@@ -1,3 +1,7 @@
-let myString = 'Hello, World!'
-let myRegex = /Hello/
-let result = myRegex // Change this line
+module.exports = () => {
+	let myString = 'Hello, World!'
+	let myRegex = /Hello/
+	let result = myRegex // Change this line
+
+	return result
+}
